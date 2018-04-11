@@ -1,0 +1,5 @@
+{
+  "readyMsg": "Roll initiative!",
+  "respondChance": 50,
+  "token": "process.env.TOKEN"
+}
