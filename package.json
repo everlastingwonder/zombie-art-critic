@@ -1,27 +1,21 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-  "name": "hello-express",
-  "version": "0.0.1",
-  "description": "A simple Node app built on Express, instantly up and running.",
-  "main": "server.js",
+  "name": "splits",
+  "version": "0.2.1",
+  "description": "An undead abomination and one of Ruination's most respected art critics",
+  "main": "node splits.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node splits.js"
   },
-  "dependencies": {
-    "express": "^4.16.3"
-  },
-  "engines": {
-    "node": "8.x"
-  },
+  "engines": { "node": "6.9.3" },
   "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
+    "type": "git",
+    "url": "git+https://github.com/everlastingwonder/zombie-art-critic.git"
   },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+  "author": "everlastingwonder",
+  "license": "GPL-3.0",
+  "homepage": "https://glitch.com/edit/#!/zombie-art-critic",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
 }
